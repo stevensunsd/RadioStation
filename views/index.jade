@@ -1,0 +1,213 @@
+doctype html
+html(lang='en')
+    head
+        title #{title}
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(name='description', content='Ser zilla Edm Radio Station')
+        meta(name='author', content='Steven Sun')
+
+        link(rel='stylesheet', type='text/css', href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin')
+
+        link(rel='stylesheet', href='here/bootstrap.min.css')
+        link(rel='stylesheet', href='here/style.css')
+
+        link(rel='stylesheet', href='here/header-default.css')
+        link(rel='stylesheet', href='here/footer-v1.css')
+
+        link(rel='stylesheet', href='here/animate.css')
+        link(rel='stylesheet', href='here/line-icons/line-icons.css')
+        link(rel='stylesheet', href='here/font-awesome/css/font-awesome.min.css')
+        link(rel='stylesheet', href='here/parallax-slider.css')
+
+        link(rel='stylesheet', type='text/css', href='audioplayerengine/initaudioplayer-1.css')
+
+    body
+        .wrapper
+            // Header
+            .header
+                .container
+                    // Topbar
+                    .topbar
+                        ul.loginbar.pull-right
+                            li.hoverSelector
+                                i.fa.fa-globe
+                                a Languages
+                                ul.languages.hoverSelectorBlock
+                                    li.active
+                                        a(href='#') Chinese
+                                            i.fa.fa-check
+
+
+            // Interactive Slider
+            .breadcrumbs-v3.img-v1.text-center
+                .container
+                    h1 Ser zilla Edm Radio Station
+                    p 如果 你喜欢听歌 我总在这里
+
+
+            // Title
+            .container.content-sm
+                .title-v1.no-margin-bottom
+                    p.no-margin-bottom
+                        | 这是一个
+                        strong 随性
+                        |  的歌单
+                        br
+                        |  但每周五都是
+                        strong 用心
+                        |  的更新
+                        br
+                        br
+                        | 当前选集：
+                        strong 2017 Jan Vol.1
+
+
+            // Player
+            .parallax-counter-v4.parallaxBg
+                .container.content-sm
+                    #amazingaudioplayer-1(style='display:block;position:relative;width:400px;height:auto;margin:0px auto 0px;')
+                        ul.amazingaudioplayer-audios(style='display:none;')
+                            li(data-artist='Philip George', data-title='Wish You Were Mind', data-album='Wish You Were Mine CDS', data-info='', data-image='audios/wish you were mine.jpg', data-duration='178')
+                                .amazingaudioplayer-source(data-src='audios/Philip George - Wish You Were Mine Radio Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Faul and Wad Ad vs Pnau', data-title='Changes', data-album='Changes CDS', data-info='', data-image='audios/changes.jpg', data-duration='201')
+                                .amazingaudioplayer-source(data-src='audios/Faul and Wad Ad vs Pnau - Changes Radio Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Duke Dumont', data-title='Ocean Drive (Michael Calfan Remix)', data-album='Ocean Drive (Remixes) CDS', data-info='', data-image='audios/ocean drive.jpg', data-duration='192')
+                                .amazingaudioplayer-source(data-src='audios/Duke Dumont - Ocean Drive (Remixes) Michael Calfan Remix (Radio Edit).mp3', data-type='audio/mpeg')
+                            li(data-artist='Halsey', data-title='Colors (Anki Bootleg Remix)', data-album='', data-info='', data-image='audios/colors.jpg', data-duration='299')
+                                .amazingaudioplayer-source(data-src='audios/Halsey - Colors (Anki Bootleg Remix).mp3', data-type='audio/mpeg')
+                            li(data-artist='San Holo', data-title='Light', data-album='Light', data-info='', data-image='audios/light.jpg', data-duration='241')
+                                .amazingaudioplayer-source(data-src='audios/San Holo - Light.mp3', data-type='audio/mpeg')
+                            li(data-artist='Boiler and Redonde', data-title='Lost And Found', data-album='Lost and Found', data-info='', data-image='audios/lost and found.jpg', data-duration='211')
+                                .amazingaudioplayer-source(data-src='audios/whhhhh.mp3', data-type='audio/mpeg')
+                            li(data-artist='Route 94 feat Jess Glynne', data-title='My Love', data-album='My Love', data-info='', data-image='audios/my love.jpg', data-duration='192')
+                                .amazingaudioplayer-source(data-src='audios/Route 94 feat Jess Glynne - My Love Radio Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Far East Movement and Marshmello feat Chanyeol and Tinashe', data-title='Freal Luv', data-album='Freal Luv', data-info='', data-image='audios/freal lev.jpg', data-duration='190')
+                                .amazingaudioplayer-source(data-src='audios/Far East Movement and Marshmello feat Chanyeol and Tinashe - Freal Luv Clean.mp3', data-type='audio/mpeg')
+                            li(data-artist='Pep and Rash and Polina', data-title='Echo', data-album='Echo', data-info='', data-image='audios/echo.jpg', data-duration='202')
+                                .amazingaudioplayer-source(data-src='audios/Pep and Rash and Polina - Echo DJ Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Dillon Francis feat Snappy Jit', data-title='Candy', data-album='Candy', data-info='', data-image='audios/candy.jpg', data-duration='182')
+                                .amazingaudioplayer-source(data-src='audios/Dillon Francis feat Snappy Jit - Candy Clean.mp3', data-type='audio/mpeg')
+                            li(data-artist='Borgeous and Loud Luxury', data-title='Going Under', data-album='Going Under CDS', data-info='', data-image='audios/going under.jpg', data-duration='185')
+                                .amazingaudioplayer-source(data-src='audios/Borgeous and Loud Luxury - Going Under Original.mp3', data-type='audio/mpeg')
+                            li(data-artist='DVBBS and CMC$ feat Gia Koko', data-title='Not Going Home', data-album='Not Going Home', data-info='', data-image='audios/not going.jpg', data-duration='195')
+                                .amazingaudioplayer-source(data-src='audios/DVBBS and CMC$ feat Gia Koko - Not Going Home Original Mix.mp3', data-type='audio/mpeg')
+                            li(data-artist='Markus Schulz feat Ethan Thompson', data-title='Love Me Like You Never Did', data-album='Love Me Like You Never Did', data-info='', data-image='audios/love me like.jpg', data-duration='212')
+                                .amazingaudioplayer-source(data-src='audios/Markus Schulz feat Ethan Thompson - Love Me Like You Never Did Radio Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Spektrem', data-title='Shine', data-album='NoCopyrightSounds', data-info='', data-image='audios/t96012547-i616732882_s400.jpg', data-duration='316')
+                                .amazingaudioplayer-source(data-src='audios/Spektrem - Shine.mp3', data-type='audio/mpeg')
+                            li(data-artist='Dillon Francis and Sultan + Ned Shepard feat Chain Gang of 1974', data-title='When We Were Young', data-album='When We Were Young CDS', data-info='', data-image='audios/when we were young.jpg', data-duration='201')
+                                .amazingaudioplayer-source(data-src='audios/Dillon Francis and Sultan + Ned Shepard feat Chain Gang of 1974 - When We Were Young Radio Edit.mp3', data-type='audio/mpeg')
+                            li(data-artist='Jack U feat Kai', data-title='Mind', data-album='Mind', data-info='', data-image='audios/mind.jpg', data-duration='242')
+                                .amazingaudioplayer-source(data-src='audios/Jack U feat Kai - Mind Clean.mp3', data-type='audio/mpeg')
+                            li(data-artist='Jauz & Marshmello', data-title='Magic', data-album='Speeeedy EDM Blog - главный источник электронной музыки вконтакте!\
+                                                                                                                                                               vk.com/speeeedy', data-info='', data-image='audios/magic.jpg', data-duration='291')
+                                .amazingaudioplayer-source(data-src='audios/Jauz x Marshmello - Magic (Original Mix).mp3', data-type='audio/mpeg')
+                            li(data-artist='Tiesto and DallasK', data-title='Your Love', data-album='Your Love', data-info='', data-image='audios/your love.jpg', data-duration='249')
+                                .amazingaudioplayer-source(data-src='audios/Tiesto and DallasK - Your Love Extended Mix.mp3', data-type='audio/mpeg')
+                            li(data-artist='Zara Larsson and MNEK', data-title='Never Forget You (Slushii Remix)', data-album='Never Forget You (Slushii Remix)', data-info='', data-image='audios/never.jpg', data-duration='235')
+                                .amazingaudioplayer-source(data-src='audios/Zara Larsson and MNEK - Never Forget You (Slushii Remix) Clean.mp3', data-type='audio/mpeg')
+                            li(data-artist='Hermitude feat Big K.R.I.T, Maytaya and Young Tapz', data-title='The Buzz', data-album='The Buzz', data-info='', data-image='audios/the buzz.jpg', data-duration='164')
+                                .amazingaudioplayer-source(data-src='audios/Hermitude feat Big K.R.I.T, Maytaya and Young Tapz - The Buzz Clean.mp3', data-type='audio/mpeg')
+                            li(data-artist='Ephwurd (Datsik and Bais Haus)', data-title='Duck Face', data-album='Duck Face CDS', data-info='', data-image='audios/duck.jpg', data-duration='202')
+                                .amazingaudioplayer-source(data-src='audios/Ephwurd (Datsik and Bais Haus) - Duck Face Original Mix.mp3', data-type='audio/mpeg')
+                            li(data-artist='Nero', data-title='Promises (Nero and Skrillex Remix)', data-album='Promises (Nero and Skrillex Remix) CDS', data-info='', data-image='audios/promise.png', data-duration='268')
+                                .amazingaudioplayer-source(data-src='audios/Nero - Promises (Nero and Skrillex Remix) Clean.mp3', data-type='audio/mpeg')
+
+
+
+            // Block
+            .service-block-v4
+                .container.content-sm
+                    .row
+                        .col-md-4.service-desc.md-margin-bottom-50
+                            i.icon-question
+                            h3 ?
+                            p.no-margin-bottom
+                                | 这个电台为什么在这里？
+                                br
+                                | 因为我想给你听好听的歌
+                                br
+                                | 也许我们喜欢的风格不一样
+                                br
+                                | 但却有一首歌能好听到打动我们
+                        .col-md-4.service-desc.md-margin-bottom-50
+                            i.icon-music-tone
+                            h3 Edm
+                            p.no-margin-bottom
+                                | 你说edm为什么好玩？
+                                br
+                                | 简单 蹦迪蹦呗听听dj听听edm
+                                br
+                                | 但对我来说
+                                br
+                                | EDM是有一种能量的
+                                br
+                                | 它是可以传递的
+                                br
+                                | 传递给每一个开心不开心的人
+                                br
+                                | 带上耳机 就是另一个世界
+                        .col-md-4.service-desc
+                            i.icon-heart
+                            h3 支持
+                            p.no-margin-bottom
+                                | 这里 我会努力把它做好
+                                br
+                                | 最后 感谢每一个来收听的人的支持
+                                br
+                                | 感谢
+
+
+
+            // Footer
+            .footer-v1
+                .footer
+                    .container
+                        .row
+                            // About
+                            .col-md-3.md-margin-bottom-40
+                                a
+                                    img#logo-footer.footer-logo(src='here/pepe.gif', alt='')
+                                p
+                                    | 对这个电台有什么意见
+                                p
+                                    | 可以联系我哈 :)
+                                p
+                                    | 有好听的歌也速度速度得推给我吧
+
+                            // Contact
+                            .col-md-3.map-img.md-margin-bottom-40
+                                .headline
+                                    h2 Contact Me
+                                address.md-margin-bottom-40
+                                    | 微信: stevensun91
+
+                .copyright
+                    .container
+                        .row
+                            .col-md-6
+                                p
+                                    | 2017 © All Rights Reserved.
+
+
+        script(type='text/javascript', src='here/jquery.min.js')
+        script(type='text/javascript', src='here/jquery-migrate.min.js')
+        script(type='text/javascript', src='here/bootstrap.min.js')
+
+
+        script(type='text/javascript', src='here/back-to-top.js')
+        script(type='text/javascript', src='here/smoothScroll.js')
+        script(type='text/javascript', src='here/jquery-appear.js')
+
+        script(type='text/javascript', src='here/app.js')
+
+        // Audio Player JS
+        script(src='audioplayerengine/amazingaudioplayer.js')
+        script(src='audioplayerengine/initaudioplayer-1.js')
+
+        script(type='text/javascript').
+            jQuery(document).ready(function () {
+                App.init();
+            });
